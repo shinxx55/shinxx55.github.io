@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas Literarias</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-4xl font-bold">Reseñas Literarias</h1>
+            <p class="mt-2">Descubre tu próxima lectura favorita</p>
+        </div>
+    </header>
+
+    <nav class="bg-blue-500">
+        <div class="container mx-auto px-4">
+            <ul class="flex space-x-6 py-4">
+                <li><a href="./index.html" class="text-white hover:text-blue-200">Inicio</a></li>
+                <li><a href="./templates/categorias.html" class="text-white hover:text-blue-200">Categorías</a></li>
+                <li><a href="./templates/autores.html" class="text-white hover:text-blue-200">Autores</a></li>
+                <li><a href="./templates/sobre-nosotros.html" class="text-white hover:text-blue-200">Sobre Nosotros</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="./img/gabriel-garcia-marquez-cien-años-de-soledad.jpg" alt="Portada del libro" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-2">Cien años de soledad</h2>
+                    <p class="text-gray-600 mb-4">por Gabriel García Márquez</p>
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-500 mr-1">★★★★☆</span>
+                        <span class="text-gray-600">4.5/5</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">Una obra maestra del realismo mágico que narra la historia de la familia Buendía a lo largo de siete generaciones en el ficticio pueblo de Macondo.</p>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Leer más</a>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="./img/portada_1984_george-orwell_202102151044.jpg" alt="Portada del libro" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-2">1984</h2>
+                    <p class="text-gray-600 mb-4">por George Orwell</p>
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-500 mr-1">★★★★★</span>
+                        <span class="text-gray-600">5/5</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">Una novela distópica que explora temas de vigilancia gubernamental, control totalitario y manipulación de la verdad en un futuro sombrío.</p>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Leer más</a>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="./img/b32673e1f490adad5e9b0024ee4d055b.jpg" alt="Portada del libro" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold mb-2">El nombre del viento</h2>
+                    <p class="text-gray-600 mb-4">por Patrick Rothfuss</p>
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-500 mr-1">★★★★☆</span>
+                        <span class="text-gray-600">4.7/5</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">Una fascinante novela de fantasía que sigue la historia de Kvothe, un legendario mago, músico y aventurero, mientras narra su vida llena de misterios y magia.</p>
+                    <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Leer más</a>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="bg-blue-800 text-white">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Sobre Nosotros</h3>
+                    <p>Reseñas Literarias es tu fuente confiable para descubrir nuevos libros y compartir opiniones sobre tus lecturas favoritas.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Enlaces Rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-300">Política de Privacidad</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Términos de Servicio</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Síguenos</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-blue-300">Facebook</a>
+                        <a href="#" class="hover:text-blue-300">Twitter</a>
+                        <a href="#" class="hover:text-blue-300">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <p>&copy; 2024 Reseñas Literarias. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
